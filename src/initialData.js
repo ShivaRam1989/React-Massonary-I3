@@ -61,7 +61,7 @@ const initialItems = [
   <div class="grid-item">8</div>
   <div class="grid-item">9</div>
 </div>},
-  { id: 4, index: 4, content: <div class="row">
+  { id: 3, index: 3, content: <div class="row">
   <div class="column" >
     <h2>Column 3</h2>
     <p>Some text..</p>
@@ -71,10 +71,9 @@ const initialItems = [
     <p>Some text..</p>
   </div>
 </div>},
-  { id: 10, index: 10, content: <img
+  { id: 4, index: 4, content: <img
     style={{
       alignSelf: 'center',
-      height: 200,
       width: 300,
       borderWidth: 1,
       borderRadius: 20
@@ -82,7 +81,8 @@ const initialItems = [
     src={require('./images/holiday.jpg')}
     resizeMode="stretch"
   />},
-  { id: 12, index: 12, content: "Once upon a time not so long ago Tommy used to work on the docks, union's been on strike He's down on his luck, it's tough, so tough Gina works the diner all day working for her man She brings home her pay, for love, for love She says, we've got to hold on to what we've got It doesn't make a difference if we make it or not We've got each other and that's a lot for love We'll give it a shot Woah, we're half way there Woah, livin' on a prayer Take my hand, we'll make it I swear Woah, livin' on a prayer Tommy's got his six-string in hock Now he's holding in what he used to make it talk So tough, it's tough Gina dreams of running away When she cries in the night, Tommy whispers Baby, it's okay, someday We've got to hold on to what we've got It doesn't make a difference if we make it or not We've got each other and that's a lot for love We'll give it a shot" },
+    {
+        id: 5, index: 5, content: "React (also known as React.js or ReactJS) is an open-source JavaScript library[3] for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.React can be used as a base in the development of single-page or mobile applications.However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries." },
 ];
 
 export default () => initialItems;
