@@ -60,8 +60,21 @@ const initialItems = [
   <div class="grid-item">7</div>
   <div class="grid-item">8</div>
   <div class="grid-item">9</div>
-</div>},
-  { id: 3, index: 3, content: <div class="row">
+    </div>
+    },
+    {
+        id: 3, index: 3, content: <div class="row">
+            <div class="column" >
+                <h2>Column 3</h2>
+                <p>Some text..</p>
+            </div>
+            <div class="column">
+                <h2>Column 4</h2>
+                <p>Some text..</p>
+            </div>
+        </div>
+    },
+  { id: 4, index: 4, content: <div class="row">
   <div class="column" >
     <h2>Column 3</h2>
     <p>Some text..</p>
@@ -71,9 +84,10 @@ const initialItems = [
     <p>Some text..</p>
   </div>
 </div>},
-  { id: 4, index: 4, content: <img
+  { id: 5, index: 5, content: <img
     style={{
       alignSelf: 'center',
+      height: 200,
       width: 300,
       borderWidth: 1,
       borderRadius: 20
@@ -82,7 +96,20 @@ const initialItems = [
     resizeMode="stretch"
   />},
     {
-        id: 5, index: 5, content: "React (also known as React.js or ReactJS) is an open-source JavaScript library[3] for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.React can be used as a base in the development of single-page or mobile applications.However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries." },
+        id: 6, index: 6, content: "React (also known as React.js or ReactJS) is an open-source JavaScript library[3] for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.React can be used as a base in the development of single-page or mobile applications.However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries."
+    },
+    {
+        id: 7, index: 7, content: <div class="row">
+            <div class="column" >
+                <h2>Column 3</h2>
+                <p>Some text..</p>
+            </div>
+            <div class="column">
+                <h2>Column 4</h2>
+                <p>Some text..</p>
+            </div>
+        </div>
+    },
 ];
 
 export default () => initialItems;

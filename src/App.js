@@ -62,7 +62,7 @@ export default function App() {
   return (
     <DndProvider backend={MultiBackend} options={HTML5toTouch}>
       <AppWrapper>
-        <h1>Responsive Drag-and-Drop Grid</h1>
+        <h1>React Massonary</h1>
         <Grid>
           { list.sort(sortItems).map(item =>
             <DraggableGridItem
